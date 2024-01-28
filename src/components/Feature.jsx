@@ -2,6 +2,7 @@ import RedBus from "../image/Redbus Ticket.png";
 import green from "../image/Green Bus.png";
 import orange from "../image/Orange Bus.png";
 import yellow from "../image/Yellow Bus.png";
+import Modal from "./Modal";
 const Feature = () => {
   return (
     <section>
@@ -16,8 +17,8 @@ const Feature = () => {
         </div>
         <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-8 -mt-4 md:space-y-0 space-y-6">
           <div className="p-8 md:w-1/3 flex flex-col text-center items-center">
-            <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
-              <img src={RedBus} alt="" />
+            <div className="w-40 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+              <img className="w-full h-full" src={RedBus} alt="" />
             </div>
             <div className="flex-grow">
               <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
@@ -27,14 +28,12 @@ const Feature = () => {
                 Kamu bisa membeli tiket bus efisiensi melalui halaman resmi
                 Redbus, dan dapatkan diskon menarik
               </p>
-              <button className="flex mx-auto mt-16 text-white bg-[#FFA812] border-0 py-2 px-8 focus:outline-none hover:bg-yellow-600 rounded text-lg">
-                Selengkapnya
-              </button>
+              <Modal />
             </div>
           </div>
 
           <div className="p-8 md:w-1/3 flex flex-col text-center items-center">
-            <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+            <div className="w-40 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
               <img src={RedBus} alt="" />
             </div>
             <div className="flex-grow">
@@ -45,14 +44,19 @@ const Feature = () => {
                 Kamu bisa membeli tiket bus efisiensi melalui halaman resmi
                 efisiensi, dan dapatkan diskon menarik
               </p>
-              <button className="flex mx-auto mt-16 text-white bg-[#FFA812] border-0 py-2 px-8 focus:outline-none hover:bg-yellow-600 rounded text-lg">
+              <a
+                href="https://efisiensi.id/portal/ticketing"
+                target="_blank"
+                className="flex mx-auto mt-16 text-white bg-[#FFA812] border-0 py-2 px-8 focus:outline-none hover:bg-yellow-600 rounded text-lg w-52 text-center justify-center"
+                rel="noreferrer"
+              >
                 Selengkapnya
-              </button>
+              </a>
             </div>
           </div>
 
           <div className="p-8 md:w-1/3 flex flex-col text-center items-center">
-            <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+            <div className="w-40 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
               <img src={RedBus} alt="" />
             </div>
             <div className="flex-grow">
@@ -63,9 +67,7 @@ const Feature = () => {
                 Kamu bisa membeli tiket bus efisiensi melalui halaman platform
                 Traveloka, dan dapatkan diskon menarik
               </p>
-              <button className="flex mx-auto mt-16 text-white bg-[#FFA812] border-0 py-2 px-8 focus:outline-none hover:bg-yellow-600 rounded text-lg">
-                Selengkapnya
-              </button>
+              <Modal />
             </div>
           </div>
         </div>
