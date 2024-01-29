@@ -71,7 +71,7 @@ const Footer = () => {
                 </p>
               </div>
               <div className="mt-4 flex place-content-center">
-                <span className="inline-flex w-full justfy-center items-center">
+                <span className="inline-flex w-full justify-center items-center">
                   <a
                     href="#!"
                     type="button"
@@ -91,7 +91,7 @@ const Footer = () => {
                   <p className="text-sm text-white">@busefisiensi</p>
                 </span>
 
-                <span className="inline-flex w-full justfy-center items-center">
+                <span className="inline-flex w-full justify-center items-center">
                   <a
                     href="#!"
                     type="button"
@@ -104,7 +104,7 @@ const Footer = () => {
                   <p className="text-sm text-white">@busefisiensi</p>
                 </span>
 
-                <span className="inline-flex w-full justfy-center items-center">
+                <span className="inline-flex w-full justify-center items-center">
                   <a
                     href="#!"
                     type="button"
@@ -117,7 +117,7 @@ const Footer = () => {
                   <p className="text-xs text-white">Bus Efisiensi Official</p>
                 </span>
 
-                <span className="inline-flex w-full justfy-center items-center">
+                <span className="inline-flex w-full justify-center items-center">
                   <a
                     href="#!"
                     type="button"
