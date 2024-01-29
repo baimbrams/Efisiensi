@@ -13,18 +13,18 @@ const Footer = () => {
               <div className="flex w-full justify-center lg:justify-start mb-4">
                 <img src={logo} alt="" className="w-[132px] h-[52px]" />
               </div>
-              <h5 className="mb-2 font-medium uppercase">
+              <h5 className="mb-2 uppercase font-bold text-white">
                 PT Efisisensi Putra Utama
               </h5>
-              <p>
-                Alamat ꞉ Jalan Raya Wonosari Km. 6 Jatisalam, Jatisari, Kebumen,
-                Jawa Tengah
+              <p className="text-wrap text-white">
+                Alamat ꞉ Jalan Raya Wonosari Km. 6 Jatisalam,
               </p>
-              <p>Telepon ꞉ 0287 384444</p>
-              <p>Email ꞉ info@busefisiensi.co</p>
+              <p className="mb-4 text-white">Jatisari, Kebumen, Jawa Tengah</p>
+              <p className="text-white">Telepon ꞉ 0287 384444</p>
+              <p className="text-white">Email ꞉ info@busefisiensi.co</p>
             </div>
 
-            <div className="mb-6 md:mb-0 py-4">
+            <div className="mb-2 md:mb-0 py-4">
               <div className="w-full grid place-content-center">
                 <img src={hotline} alt="" className="w-[132px] h-[132px] " />
                 <p className="mt-1 inline-flex">
@@ -70,8 +70,8 @@ const Footer = () => {
                   </span>
                 </p>
               </div>
-              <div className="mt-4 flex place-content-center">
-                <span className="inline-flex w-full justfy-center items-center">
+              <div className="mt-4 pl-4 grid grid-cols-2 lg:grid-cols-4 place-content-center">
+                <span className="inline-flex w-full items-center ">
                   <a
                     href="#!"
                     type="button"
@@ -91,7 +91,7 @@ const Footer = () => {
                   <p className="text-sm text-white">@busefisiensi</p>
                 </span>
 
-                <span className="inline-flex w-full justfy-center items-center">
+                <span className="inline-flex w-full items-center ">
                   <a
                     href="#!"
                     type="button"
@@ -104,7 +104,7 @@ const Footer = () => {
                   <p className="text-sm text-white">@busefisiensi</p>
                 </span>
 
-                <span className="inline-flex w-full justfy-center items-center">
+                <span className="inline-flex w-full items-center">
                   <a
                     href="#!"
                     type="button"
@@ -117,7 +117,7 @@ const Footer = () => {
                   <p className="text-xs text-white">Bus Efisiensi Official</p>
                 </span>
 
-                <span className="inline-flex w-full justfy-center items-center">
+                <span className="inline-flex w-full items-center">
                   <a
                     href="#!"
                     type="button"

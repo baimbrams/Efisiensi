@@ -4,7 +4,7 @@ const Profile = () => {
   return (
     <section className="">
       <div className="grid lg:grid-cols-2">
-        <div className="mb-10 md:mb-0">
+        <div className="md:mb-0">
           <img
             className="object-cover object-center rounded"
             alt="hero"
@@ -12,7 +12,7 @@ const Profile = () => {
           />
         </div>
         <div className="bg-[#FFA812] flex w-full justify-center items-center flex-col">
-          <h1 className="title-font sm:text-4xl text-5xl p-4 mt-10 font-bold text-white">
+          <h1 className="title-font text-4xl sm:text-6xl p-4 mt-5 font-bold text-white">
             Bus Efisiensi
           </h1>
           <p className="mb-8 leading-relaxed p-4 pr-12 text-white ">

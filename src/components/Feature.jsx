@@ -3,12 +3,14 @@ import green from "../image/Green Bus.png";
 import orange from "../image/Orange Bus.png";
 import yellow from "../image/Yellow Bus.png";
 import Modal from "./Modal";
+import Traveloka from "../image/Traveloka Ticket.png";
+import Tiket from "../image/Efisiensi Ticket.png";
 const Feature = () => {
   return (
     <section>
-      <div className="container px-5 pt-10 mx-auto">
-        <div className="text-center mb-20">
-          <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">
+      <div className="container px-5 pt-8 mx-auto">
+        <div className="text-center mb-8">
+          <h1 className="sm:text-3xl text-3xl font-medium title-font text-gray-900 mb-4">
             BELI TIKET DI SINI
           </h1>
           <div className="flex mt-6 justify-center">
@@ -34,7 +36,7 @@ const Feature = () => {
 
           <div className="p-8 md:w-1/3 flex flex-col text-center items-center">
             <div className="w-40 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
-              <img src={RedBus} alt="" />
+              <img src={Tiket} alt="" />
             </div>
             <div className="flex-grow">
               <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
@@ -57,7 +59,7 @@ const Feature = () => {
 
           <div className="p-8 md:w-1/3 flex flex-col text-center items-center">
             <div className="w-40 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
-              <img src={RedBus} alt="" />
+              <img src={Traveloka} alt="" />
             </div>
             <div className="flex-grow">
               <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
