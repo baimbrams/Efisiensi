@@ -16,8 +16,9 @@ const Footer = () => {
               <h5 className="mb-2 uppercase font-bold text-white">
                 PT Efisisensi Putra Utama
               </h5>
-              <p className="text-wrap text-white">
-                Alamat ꞉ Jalan Raya Wonosari Km. 6 Jatisalam,
+              <p>
+                Alamat ꞉ Jalan Raya Wonosari Km. 6 Jatisalam, Jatisari,
+                Kebumen,Jawa Tengah
               </p>
               <p className="mb-4 text-white">Jatisari, Kebumen, Jawa Tengah</p>
               <p className="text-white">Telepon ꞉ 0287 384444</p>
@@ -70,8 +71,8 @@ const Footer = () => {
                   </span>
                 </p>
               </div>
-              <div className="mt-4 pl-4 grid grid-cols-2 lg:grid-cols-4 place-content-center">
-                <span className="inline-flex w-full items-center ">
+              <div className="mt-4 flex place-content-center">
+                <span className="inline-flex w-full justfy-center items-center">
                   <a
                     href="#!"
                     type="button"
@@ -91,7 +92,7 @@ const Footer = () => {
                   <p className="text-sm text-white">@busefisiensi</p>
                 </span>
 
-                <span className="inline-flex w-full items-center ">
+                <span className="inline-flex w-full justfy-center items-center">
                   <a
                     href="#!"
                     type="button"
@@ -104,7 +105,7 @@ const Footer = () => {
                   <p className="text-sm text-white">@busefisiensi</p>
                 </span>
 
-                <span className="inline-flex w-full items-center">
+                <span className="inline-flex w-full justfy-center items-center">
                   <a
                     href="#!"
                     type="button"
@@ -117,7 +118,7 @@ const Footer = () => {
                   <p className="text-xs text-white">Bus Efisiensi Official</p>
                 </span>
 
-                <span className="inline-flex w-full items-center">
+                <span className="inline-flex w-full justfy-center items-center">
                   <a
                     href="#!"
                     type="button"
