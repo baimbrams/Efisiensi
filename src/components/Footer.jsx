@@ -16,7 +16,7 @@ const Footer = () => {
               <h5 className="mb-2 uppercase font-bold text-white">
                 PT Efisisensi Putra Utama
               </h5>
-              <p>
+              <p className="text-white">
                 Alamat ꞉ Jalan Raya Wonosari Km. 6 Jatisalam, Jatisari,
                 Kebumen,Jawa Tengah
               </p>
