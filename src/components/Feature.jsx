@@ -78,7 +78,7 @@ const Feature = () => {
       <div className="container px-5 pt-6  mx-auto">
         <div className="flex flex-wrap -m-4">
           <div className="p-4 lg:w-1/3">
-            <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+            <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-8 rounded-lg overflow-hidden text-center relative">
               <img src={green} alt="" />
               <h1 className="title-font sm:text-2xl text-xl font-medium pt-12 text-gray-900 mb-3">
                 Bus Pariwisata
@@ -90,7 +90,7 @@ const Feature = () => {
           </div>
 
           <div className="p-4 lg:w-1/3">
-            <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+            <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-8 rounded-lg overflow-hidden text-center relative">
               <img src={orange} alt="" />
               <h1 className="title-font sm:text-2xl text-xl font-medium pt-12 text-gray-900 mb-3">
                 Bus Cilacap
@@ -102,7 +102,7 @@ const Feature = () => {
           </div>
 
           <div className="p-4 lg:w-1/3">
-            <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+            <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-8 rounded-lg overflow-hidden text-center relative">
               <img src={yellow} alt="" />
               <h1 className="title-font sm:text-2xl text-xl font-medium pt-12 text-gray-900 mb-3">
                 Bus Yogyakarta

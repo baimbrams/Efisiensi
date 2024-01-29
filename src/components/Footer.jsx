@@ -17,8 +17,7 @@ const Footer = () => {
                 PT Efisisensi Putra Utama
               </h5>
               <p className="text-white">
-                Alamat ꞉ Jalan Raya Wonosari Km. 6 Jatisalam, Jatisari,
-                Kebumen,Jawa Tengah
+                Alamat ꞉ Jalan Raya Wonosari Km. 6 Jatisalam,
               </p>
               <p className="mb-4 text-white">Jatisari, Kebumen, Jawa Tengah</p>
               <p className="text-white">Telepon ꞉ 0287 384444</p>
@@ -71,7 +70,7 @@ const Footer = () => {
                   </span>
                 </p>
               </div>
-              <div className="mt-4 flex place-content-center">
+              <div className="mt-4 px-8 grid grid-cols-2 lg:grid-cols-4 place-content-center">
                 <span className="inline-flex w-full justfy-center items-center">
                   <a
                     href="#!"
