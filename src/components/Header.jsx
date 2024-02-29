@@ -8,6 +8,7 @@ import {
   Input,
 } from "@material-tailwind/react";
 import logo from "../image/Logo.png";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [openNav, setOpenNav] = useState(false);
@@ -26,12 +27,12 @@ const Header = () => {
         color="blue-gray"
         className="flex items-center gap-x-2 p-1 font-medium"
       >
-        <a
-          href="#"
+        <Link
+          to="/"
           className="flex items-center py-1.5 px-2 hover:bg-yellow-400 hover:text-white rounded-lg"
         >
           Tentang Kami
-        </a>
+        </Link>
       </Typography>
       <Typography
         as="li"
@@ -64,7 +65,9 @@ const Header = () => {
   return (
     <Navbar className="w-screen max-w-none shadow-none px-4 py-2 lg:py-4">
       <div className="w-full lg:px-10 mx-auto flex flex-wrap items-center justify-between text-blue-gray-900">
-        <img src={logo} alt="" className="w-[132px] h-[52px]" />
+        <Link to="/">
+          <img src={logo} alt="" className="w-[132px] h-[52px]" />
+        </Link>
         <div className="hidden lg:block">{navList}</div>
         <div className="hidden items-center gap-x-2 lg:flex">
           <div className="relative flex w-full gap-2 md:w-max">

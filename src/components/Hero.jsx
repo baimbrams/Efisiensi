@@ -1,5 +1,7 @@
 import { Carousel } from "@material-tailwind/react";
-import jumbotron1 from "../image/Bus JB5.png";
+import page1 from "../image/Page1.png";
+import page2 from "../image/Page2.png";
+import page3 from "../image/Page3.png";
 
 const Hero = () => {
   return (
@@ -22,17 +24,17 @@ const Hero = () => {
       )}
     >
       <img
-        src={jumbotron1}
+        src={page1}
         alt="image 1"
         className="lg:h-[770px] h-[500px] lg:w-[1440px] xl:w-[2088px]  object-cover"
       />
       <img
-        src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
+        src={page2}
         alt="image 2"
         className="lg:h-[770px] h-[500px] lg:w-[1440px] xl:w-[2088px] object-cover"
       />
       <img
-        src="https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80"
+        src={page3}
         alt="image 3"
         className="lg:h-[770px] h-[500px] lg:w-[1440px] xl:w-[2088px] object-cover"
       />

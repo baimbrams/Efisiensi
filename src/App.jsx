@@ -1,17 +1,33 @@
-import Feature from "./components/Feature";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Profile from "./components/Profile";
+import BusPariwisata from "./pages/BusPariwisata";
+import BusinessClass from "./pages/BusinessClass";
+import GoldClass from "./pages/GoldClass";
+import Home from "./pages/Home";
+
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/BusPariwisata",
+    element: <BusPariwisata />,
+  },
+  {
+    path: "/BusinessClass",
+    element: <BusinessClass />,
+  },
+  {
+    path: "/GoldClass",
+    element: <GoldClass />,
+  },
+]);
 
 function App() {
   return (
     <>
-      <Header />
-      <Hero />
-      <Profile />
-      <Feature />
-      <Footer />
+      <RouterProvider router={router} />
     </>
   );
 }
