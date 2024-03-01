@@ -8,6 +8,9 @@ const Hero = () => {
     <Carousel
       className="-mb-10"
       autoplay={true}
+      autoplayDelay={5000}
+      transition={{ duration: 3 }}
+      loop={true}
       showControls={false}
       navigation={({ setActiveIndex, activeIndex, length }) => (
         <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
@@ -26,17 +29,17 @@ const Hero = () => {
       <img
         src={page1}
         alt="image 1"
-        className="lg:h-[770px] h-[500px] lg:w-[1440px] xl:w-[2088px]  object-cover"
+        className="lg:h-[770px] h-[300px] lg:w-[1440px] xl:w-[2088px] "
       />
       <img
         src={page2}
         alt="image 2"
-        className="lg:h-[770px] h-[500px] lg:w-[1440px] xl:w-[2088px] object-cover"
+        className="lg:h-[770px] h-[300px] lg:w-[1440px] xl:w-[2088px] "
       />
       <img
         src={page3}
         alt="image 3"
-        className="lg:h-[770px] h-[500px] lg:w-[1440px] xl:w-[2088px] object-cover"
+        className="lg:h-[770px] h-[300px] lg:w-[1440px] xl:w-[2088px] "
       />
     </Carousel>
   );

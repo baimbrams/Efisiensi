@@ -1,6 +1,5 @@
 import {
   Card,
-  CardHeader,
   CardBody,
   CardFooter,
   Typography,
@@ -13,6 +12,8 @@ import toilet from "../image/Pariwisata/Toilet.png";
 import usb from "../image/Pariwisata/USB_Charger.png";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import ScrollToTop from "../components/ScrollToTop";
+import Bus from "../components/Bus";
 
 const Jadwal = [
   {
@@ -82,6 +83,7 @@ const Photo = [
 const BusPariwisata = () => {
   return (
     <>
+      <ScrollToTop />
       <Header />
       <h1 className="text-3xl font-bold text-center my-8">
         Informasi Bus Wisata
@@ -104,21 +106,24 @@ const BusPariwisata = () => {
       </div>
 
       <h1 className="text-3xl font-bold text-center my-8">Fasilitas Bus</h1>
-      <div className="grid lg:grid-cols-3 gap-4 my-10">
+      <div className="grid-cols-1 sm:grid md:grid-cols-2">
         {Photo.map((item) => (
-          <Card key={item.id} className="w-96">
-            <CardHeader floated={false} className="h-80 shadow-sm">
-              <img src={item.img} alt={item.title} />
-            </CardHeader>
-            <CardBody className="text-center">
-              <Typography variant="h4" color="blue-gray" className="mb-2">
+          <div
+            key={item.id}
+            className="mx-3 mt-6 flex flex-col self-start rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0"
+          >
+            <img src={item.img} alt={item.title} className="rounded-t-lg" />
+            <div className="p-6">
+              <h5 className="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
                 {item.title}
-              </Typography>
-            </CardBody>
-          </Card>
+              </h5>
+            </div>
+          </div>
         ))}
       </div>
 
+      <h1 className="text-3xl font-bold text-center my-8">Bus Lainnya</h1>
+      <Bus />
       <Footer />
     </>
   );
