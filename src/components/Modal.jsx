@@ -19,7 +19,7 @@ const Modal = () => {
         onClick={handleOpen}
         className="flex mx-auto mt-16 text-white bg-[#FFA812] border-0 py-2 px-8 focus:outline-none hover:bg-yellow-600 rounded text-lg"
       >
-        Selengkapnya
+        Beli Sekarang
       </button>
       <Dialog open={open} handler={handleOpen}>
         <DialogHeader>Coming Soon.</DialogHeader>
