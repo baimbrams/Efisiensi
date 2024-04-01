@@ -1,5 +1,5 @@
 import RedBus from "../image/Redbus Ticket.png";
-// import Modal from "./Modal";
+import Modal from "./Modal";
 import Traveloka from "../image/Traveloka Ticket.png";
 import Tiket from "../image/Efisiensi Ticket.png";
 
@@ -55,7 +55,7 @@ const Feature = () => {
                 efisiensi, dan dapatkan diskon menarik
               </p>
               <a
-                href="https://efisiensi.id/portal/ticketing"
+                href="https://efisiensi.id/tickets"
                 target="_blank"
                 className="flex mx-auto mt-16 text-white bg-[#FFA812] border-0 py-2 px-8 focus:outline-none hover:bg-yellow-600 rounded text-lg w-52 text-center justify-center"
                 rel="noreferrer"
@@ -77,15 +77,15 @@ const Feature = () => {
                 Kamu bisa membeli tiket bus efisiensi melalui halaman platform
                 Traveloka, dan dapatkan diskon menarik
               </p>
-              {/* <Modal /> */}
-              <a
+              <Modal />
+              {/* <a
                 href="https://efisiensi.id/tickets"
                 target="_blank"
                 className="flex mx-auto mt-16 text-white bg-[#FFA812] border-0 py-2 px-8 focus:outline-none hover:bg-yellow-600 rounded text-lg w-52 text-center justify-center"
                 rel="noreferrer"
               >
                 Beli Sekarang
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
